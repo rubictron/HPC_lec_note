@@ -1,0 +1,8 @@
+gcc -openmp -pthread -o ProjectSerial ProjectSerial.c
+gcc -openmp -pthread -o projectParallel projectParallel.c
+gcc -openmp -pthread -o projectParallel2 projectParallel2.c
+
+
+gcc -openmp -pthread -o ProjectSerial ProjectSerial.c       && ./ProjectSerial
+gcc -openmp -pthread -o projectParallel projectParallel.c   && ./projectParallel
+gcc -openmp -pthread -o projectParallel2 projectParallel2.c && ./projectParallel2

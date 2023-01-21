@@ -1,0 +1,15 @@
+parrallel for loop
+
+#pragma omp barrier
+	
+	nowait
+
+#pragma omp master
+
+#pragma omp single
+
+Lock
+
+
+=
+""
